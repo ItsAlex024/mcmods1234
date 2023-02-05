@@ -1,5 +1,6 @@
 package net.alex.tutorialmod;
 
+import net.alex.tutorialmod.item.ModItemGroups;
 import net.alex.tutorialmod.item.ModItems;
 import  net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -14,6 +15,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 	ModItems.registerModItems();
+	ModItemGroups.registerModItemGroups();
 
 	}
 }
