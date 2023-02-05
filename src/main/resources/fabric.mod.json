@@ -14,7 +14,7 @@
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/tutorialmod/textures/item/citrine.png",
 
   "environment": "*",
   "entrypoints": {
@@ -30,9 +30,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.14.13",
     "fabric-api": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.19.3",
     "java": ">=17"
   },
   "suggests": {
